@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node server/onm.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server/onm.js "
+    "start": "NODE_ENV=production node server/onm.js "
   },
   "author": "",
   "license": "ISC",
