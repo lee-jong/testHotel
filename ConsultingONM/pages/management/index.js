@@ -27,7 +27,9 @@ class Management extends Component {
 
     try {
       management = await getManagementsByPage(pageData);
-    } catch (err) {}
+    } catch (err) {
+      console.log('check error', err);
+    }
 
     return {
       management,
