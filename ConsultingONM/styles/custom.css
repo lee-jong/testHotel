@@ -1,0 +1,8 @@
+@charSet "utf-8";
+
+.textarea-wrap {width: 500px; height: auto; position: relative; display: inline-block;}
+.textarea-wrap textarea {width: 100%; resize: none; min-height: 4.5em; line-height:1.6em; max-height: 9em;}
+.textarea-wrap span {position: absolute; bottom: 5px; right: 5px;}
+#textarea-counter {border-radius: 0.5em; padding: 0 .5em 0 .5em; font-size: 0.75em;}
+
+.error {  display: block; padding:7px 0 5px 10px; color:#DC143C; font-family:Noto Sans CJK KR , 'Noto Sans', 'Malgun Gothic', dotum, gulim, verdana, sans-serif; font-size:11px; }

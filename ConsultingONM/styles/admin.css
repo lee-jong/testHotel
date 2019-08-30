@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* ===========================
+	00. 추가
+=========================== */
+
+.pr0 {
+  padding-right: 0;
+}
+
+.info {
+  display: block;
+  padding: 7px 0 5px 10px;
+  font-family: Noto Sans CJK KR, 'Noto Sans', 'Malgun Gothic', dotum, gulim,
+    verdana, sans-serif;
+  font-size: 11px;
+}
+
+.table-list-data + .table-list-data {
+  margin-top: 15px;
+}
+.sub-title {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+#searchForm td {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.calltime {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+}
+.calltime::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  margin: 0 8px;
+  vertical-align: middle;
+  background: #d6d6d6;
+}
+.receivecall .calltime {
+  color: #13669b;
+}
+.sendcall .calltime {
+  color: #059d50;
+}
+.missedcall .calltime {
+  color: #d41d30;
+}
+.missedcall td:not(:first-child) {
+  color: #d41d30;
+}
+
+.table-list-data .list tbody td select {
+  vertical-align: middle;
+}
+
+.input-dropdown-wrap {
+  position: relative;
+  display: inline-block;
+}
+.input-dropdown {
+  position: absolute;
+  width: 250px;
+  border: 1px solid #7a9cd3;
+  background: #fff;
+  box-sizing: border-box;
+  z-index: 999;
+}
+.input-dropdown a {
+  display: block;
+  padding: 0 15px;
+  line-height: 21px;
+  font-size: 14px;
+  color: #222;
+}
+.input-dropdown a span {
+  color: #cc0f0f;
+}
+.input-dropdown a:hover {
+  color: #fff;
+  background: #1e90ff;
+}
